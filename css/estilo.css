@@ -945,23 +945,6 @@ body {
     font-weight: bold;
     margin: 30px;
 }
-    
-.servico1 {
-    position: absolute;
-    margin-left: 110px;
-    margin-top: 60px;
-}
-
-.servico2 {
-    margin-left: auto;
-}
-
-.servico3 {
-    margin-top: 45px;
-    /* margin-right: 100px; */
-    margin-left: 40px;
-}
-
 
 .servicos p{
     display: flex;

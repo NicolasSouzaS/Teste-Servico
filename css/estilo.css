@@ -959,7 +959,7 @@ body {
     justify-content: space-around;
     margin-top: 60px;
     flex-wrap: wrap;
-    position: fixed;
+   
 }
 
 .cont-servicos img{
@@ -1011,6 +1011,7 @@ body {
 }
 
 
+}
 
     /* #endregion responsive serviços */
 

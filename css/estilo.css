@@ -184,6 +184,23 @@ body {
     font-weight: 200;
 }
 
+.servico1{
+    width: 45%;
+    height: 200px;   
+}
+
+.servico2{
+    width: 45%;
+    height: 200px;
+    margin-left: 12px;
+}
+
+.servico3{
+    width: 45%;
+    height: 200px;
+
+}
+
 .cont-servicos{
     display: flex;
     justify-content: space-around;
@@ -201,7 +218,7 @@ body {
 }
  
 .cont-servicos div{ 
-    width: 300px; 
+     
     border-radius: 15px;
     box-shadow: 6px 6px 8px rgb(65, 101, 201);
     background-color: #f2f2f2;
@@ -238,7 +255,6 @@ body {
 #btnServ {
     text-decoration: none;
     align-self: flex-end;
-    width: 26%;
     padding: 7px 12px;
     border-radius: 10px;
     border: 0;
@@ -816,13 +832,12 @@ body {
 }
 
 .topo, .sobre{
-    background: url(../img/fundo-mobile.gif) no-repeat;
     background-attachment: fixed;
     box-shadow: 0px 8px 10px rgb(51, 48, 48);
 }
 
 .logo{
-    margin-left: 25%;
+    margin-right: 100px;
 }
 
 .menu{
@@ -863,7 +878,7 @@ body {
     display: block;
     padding: 20px;
     border: 0;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 
 .menu-fechar{
@@ -948,10 +963,13 @@ body {
 
 .servicos p{
     display: flex;
+    width: 75%;
     flex-direction: column;
     justify-content: center;
     font-size: 15px;
     font-weight: 200;
+    margin-left: 70px;
+
 }
 
 .cont-servicos img{
@@ -1058,6 +1076,30 @@ body {
 
     /* #region responsive etapas */
 
+    .etapas {
+        text-align: center;
+    }
+
+    .titEtapas h2{
+        margin-left: 120px;
+        width: 60%;
+    }
+
+    .titEtapas p {
+        margin-left: 60px;
+    }
+
+    .cont-etapas h2 {
+        margin-left: 265px;
+        margin-bottom: 10px;
+        width: 2.5%;
+    }
+
+    .cont-etapas p {
+        width: 85%;
+        margin-left: 45px;
+    }
+
     /* #endregion responsive etapas*/
 
     /* #region responsive trabalhe conosco */
@@ -1155,10 +1197,11 @@ body {
 
     /* #region responsive rodapé */
 .cont-roda{
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
     
 .caixaRodape1{
+    display: flex;
     margin-left: 80px;
     width: 16%;
 }
@@ -1167,6 +1210,7 @@ body {
     color: #000000;
     font-weight: 600;
     margin-top: 20px;
+    margin-right: 20px;
 }
     
 .caixaRodape1 h2{
@@ -1177,9 +1221,10 @@ body {
 }
     
 .caixaRodape2{
-    flex-direction: column;
     font-family: 'Inter'sans-serif;
     justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 45px;
 }
     
 .caixaRodape2 div:nth-child(1){
@@ -1209,6 +1254,10 @@ body {
     margin-bottom: 20px;
     color: #292525;
     font-weight: 300;
+}
+
+.rodape img {
+    margin-right: 20px;
 }
     
 #linksRoda{

@@ -24,7 +24,7 @@ for (let i = 0; i < linksCookies.length; i++) {
 };
 
 // aqui é para dar uma função ao clicar no menu mobile
-document.querySelector(".menu-abrir").onclick = function () {
+document.querySelector(".menu-abrir").onclick = function(){
   document.documentElement.classList.add("menu-ativo");
 }
 

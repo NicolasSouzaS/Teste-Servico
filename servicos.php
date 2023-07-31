@@ -19,7 +19,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-servico.css">
+    
 
     <!-- efeito aos js -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -151,7 +152,7 @@
     </main>
 
 <!-- aqui esta começando o rodape -->
-<section data-aos="fade-up" data-aos-duration="2000" class="rodape">
+<section class="rodape">
     <footer>
     <div class="cont-roda">
 
@@ -193,6 +194,7 @@
     </div>
     </footer>
 </section>
+
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
